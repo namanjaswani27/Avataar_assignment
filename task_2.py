@@ -135,7 +135,7 @@ def draw_image(image_pil, masks, alpha=0.4):
     image = np.asarray(image_pil)
     image = torch.from_numpy(image).permute(2, 0, 1)
     if len(masks) > 0:
-        image = draw_segmentation_masks(image, masks=masks, colors=['cyan'] * len(masks), alpha=alpha)
+        image = draw_segmentation_masks(image, masks=masks, colors=['red'] * len(masks), alpha=alpha)
     return image.numpy().transpose(1, 2, 0)
 
 
