@@ -66,9 +66,6 @@ class CFG:
     ckpt_repo_id = "ShilongLiu/GroundingDINO"
     ckpt_filename = "groundingdino_swinb_cogcoor.pth"
     ckpt_config_filename = "GroundingDINO_SwinB.cfg.py"
-#     image_path = os.path.join(os.getcwd(), 'fruits.jpg')
-#     image_path = '/kaggle/input/avataar/wall hanging.jpg'
-#     text_prompt = 'chair'
 
 
 '''Build models'''
